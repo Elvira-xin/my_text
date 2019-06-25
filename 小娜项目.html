@@ -61,12 +61,15 @@
                     second='0'+second;
                 }
                 alert('现在的时间是'+year+'-'+month+'-'+day+' '+hour+':'+minute+':'+second);
+                break;
             case '3':
             case '笑话':
                 var joke=['笑话1','笑话2','笑话3','笑话4','笑话5','笑话6','笑话7','笑话8'];
                 var r=Math.random()*joke.length-1;
                 r=Math.floor(r);
                 alert(joke[r]);
+                break;
+                default:'你说的话小娜没有听懂，请再说一次';
 
             
 
